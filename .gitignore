@@ -28,7 +28,6 @@ MANIFEST
 
 # Project-specific
 chromadb_data/
-initial_corpus/
 
 # IDE
 .idea/
