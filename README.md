@@ -1,17 +1,21 @@
-# Macroeconomics Tutor Chatbot
+# AI Assessment Tutor for Macroeconomics
 
-An intelligent tutoring system that provides personalized macroeconomics education using PDF documents and Claude AI. The system helps students understand core macroeconomic concepts, policies, and theories through interactive conversations, document-based learning, and quiz generation capabilities.
+An AI system that evaluates student understanding of macroeconomics through adaptive assessment, real-time feedback, and performance tracking.
 
 ## Features
 
-- 🎓 Friendly, conversational macroeconomics tutoring
-- 📚 PDF document integration for custom learning material
-- 💬 Multilingual support (English and French)
-- 🧠 Intelligent context-aware responses
-- 📝 Interactive quiz generation and problem-solving
-- 🔍 Semantic search across macroeconomic materials
-- 📊 Support for economic data interpretation
-- 📈 Help with graphical analysis (supply/demand, GDP, inflation, etc.)
+- 📊 Real-time assessment and progress tracking
+- 📝 Adaptive questioning and difficulty adjustment
+- 🎯 Instant feedback on responses and misconceptions
+- 📈 Performance analytics and gap identification
+- 🎓 Evaluates key competencies:
+  - Concept mastery
+  - Math skills
+  - Graph analysis
+  - Policy understanding
+  - Data interpretation
+- 📚 Course material integration
+- 💬 English and French support
 
 ## Prerequisites
 
@@ -99,10 +103,6 @@ macroeconomics-tutor-chatbot/
 
 The system can be configured through environment variables:
 - `ANTHROPIC_API_KEY`: Your Anthropic API key
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## License
 
