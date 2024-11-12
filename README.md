@@ -1,15 +1,17 @@
-# Economics Tutor Chatbot
+# Macroeconomics Tutor Chatbot
 
-An intelligent tutoring system that provides personalized economics education using PDF documents and Claude AI. The system features interactive conversations, document-based learning, and quiz generation capabilities.
+An intelligent tutoring system that provides personalized macroeconomics education using PDF documents and Claude AI. The system helps students understand core macroeconomic concepts, policies, and theories through interactive conversations, document-based learning, and quiz generation capabilities.
 
 ## Features
 
-- 🎓 Friendly, conversational economics tutoring
+- 🎓 Friendly, conversational macroeconomics tutoring
 - 📚 PDF document integration for custom learning material
 - 💬 Multilingual support (English and French)
 - 🧠 Intelligent context-aware responses
-- 📝 Interactive quiz generation
-- 🔍 Semantic search across learning materials
+- 📝 Interactive quiz generation and problem-solving
+- 🔍 Semantic search across macroeconomic materials
+- 📊 Support for economic data interpretation
+- 📈 Help with graphical analysis (supply/demand, GDP, inflation, etc.)
 
 ## Prerequisites
 
@@ -21,8 +23,8 @@ An intelligent tutoring system that provides personalized economics education us
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/economics-tutor-chatbot.git
-cd economics-tutor-chatbot
+git clone https://github.com/yourusername/macroeconomics-tutor-chatbot.git
+cd macroeconomics-tutor-chatbot
 ```
 
 2. Install dependencies:
@@ -48,14 +50,14 @@ mkdir initial_corpus
 Basic usage example:
 
 ```python
-from economics_tutor import EconomicsTutor
+from macroeconomics_tutor import MacroeconomicsTutor
 
 # Initialize the tutor
-tutor = EconomicsTutor()
+tutor = MacroeconomicsTutor()
 
 # Ask a question
 response = tutor.handle_question(
-    "Explain economic growth",
+    "Explain how monetary policy affects aggregate demand",
     language="en"  # or "fr" for French
 )
 print(response)
@@ -63,17 +65,29 @@ print(response)
 # Generate a quiz
 quiz = tutor.generate_quiz(
     conversation_history=[],
-    topic="economic growth",
+    topic="monetary policy",
     difficulty="intermediate"
 )
 print(quiz)
 ```
 
+## Topics Covered
+
+The tutor is designed to help with various macroeconomic topics including:
+- Aggregate Supply and Demand
+- Monetary and Fiscal Policy
+- Economic Growth and Development
+- Inflation and Price Levels
+- International Trade and Exchange Rates
+- Business Cycles
+- Employment and Unemployment
+- National Income Accounting
+
 ## Project Structure
 
 ```
-economics-tutor-chatbot/
-├── economics_tutor.py     # Main implementation
+macroeconomics-tutor-chatbot/
+├── macroeconomics_tutor.py     # Main implementation
 ├── initial_corpus/        # Directory for PDF documents
 ├── chromadb_data/        # Persistent storage for embeddings
 ├── requirements.txt      # Python dependencies

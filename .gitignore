@@ -29,6 +29,7 @@ MANIFEST
 # Project-specific
 chromadb_data/
 
+
 # IDE
 .idea/
 .vscode/
